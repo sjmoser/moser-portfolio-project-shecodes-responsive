@@ -1,6 +1,45 @@
-/* font-family: "Poppins", sans-serif;
-  font-family: "Playfair Display", serif; */
+:root {
+  --primary-font-family: "Poppins", sans-serif;
+  --secondary-font-family: "Playfair Display", serif;
+  --primary-color: #f9f7fe;
+  --secondary-color: #6c63ff;
+}
 
 body {
-  background: green;
+  font-family: var(--primary-font-family);
+  background: var(--primary-color);
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: var(--secondary-font-family);
+  font-size: 96px;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.btn-branding {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4;
+}
+
+.shecodes-logo {
+  max-width: 25%;
+}
+
+.navbar {
+  display: flex;
 }
