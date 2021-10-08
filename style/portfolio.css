@@ -27,13 +27,25 @@ h1 {
 
 h2 {
   font-weight: 400;
-
+  font-family: var(--secondary-font-family);
   padding-top: 24px;
+}
+
+.heading-title {
+  font-size: 45px;
 }
 
 .btn-branding {
   background-color: var(--secondary-color);
   color: white;
+  padding: 15px 30px;
+  border-radius: 4;
+}
+
+.btn-branding-inverse {
+  background-color: white;
+  color: var(--secondary-color);
+  border: solid 1px var(--secondary-color);
   padding: 15px 30px;
   border-radius: 4;
 }
@@ -44,4 +56,14 @@ h2 {
 
 .navbar {
   display: flex;
+}
+
+.project-picture {
+  max-width: 75%;
+}
+
+@media (max-width: 900px) {
+  .heading-title {
+    text-align: center;
+  }
 }
