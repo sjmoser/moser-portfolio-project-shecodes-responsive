@@ -62,8 +62,8 @@ h2 {
   max-width: 75%;
 }
 
-@media (max-width: 900px) {
-  .heading-title {
+@media (min-width: 992px) {
+  .project-text{
     text-align: center;
   }
 }
