@@ -31,6 +31,17 @@ h2 {
   padding-top: 24px;
 }
 
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.about-hero h2 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .heading-title {
   font-size: 45px;
 }
