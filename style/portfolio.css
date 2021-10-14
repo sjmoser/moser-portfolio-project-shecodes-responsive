@@ -84,16 +84,40 @@ h2 {
   border-radius: 4;
 }
 
-.shecodes-logo {
-  max-width: 25%;
-}
-
-.navbar {
-  display: flex;
-}
-
 .project-picture {
   max-width: 100%;
+}
+
+.logo {
+  max-height: 45px;
+}
+
+nav {
+  padding: 40px;
+  background: white;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 992px) {
@@ -117,6 +141,9 @@ h2 {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  nav a {
+    font-size: 12px;
   }
 }
 
