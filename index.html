@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      class="description"
+      content="Sarah is a professionally trained front-end engineer based in Tucson"
+    />
+    <title>Front-end developer - Sarah Moser</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,25 +31,27 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style/portfolio.css" class="rel" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sarah's Portfolio Project</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes Logo"
+          />
           <img
             src="images/logo-small.png"
             class="logo d-block d-md-none"
-            alt=""
+            alt="SheCodes Logo Small"
           />
         </a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Sarah">About</a></li>
+          <li><a href="/work.html" title="Sarah's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Sarah">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -52,32 +60,33 @@
       <h1>Sarah Moser</h1>
       <h2>Front-end developer, based in Tucson 🌵</h2>
       <div>
-        <a href="#" class="btn btn-branding mt-5 mb-5">Get started</a>
+        <a
+          href="/contact.html"
+          class="btn btn-branding mt-5 mb-1"
+          title="Contact Sarah"
+          >Contact me</a
+        >
       </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row mb-5">
         <div class="col-lg-6 project-text">
           <h2 class="heading-title">Passion Project</h2>
-          <p class="project-description">
+          <p class="project-description me-5">
             After completing the three-week SheCodes Basics training in a single
             week, I created this basic webpage about something I am passionate
             about -- French -- while integrating HTML and CSS techniques that I
             learned throughout the Basics course. Click the button below to see
             the entire webpage.
           </p>
-          <a
-            href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/379/211/original/moserwk3project.html?1623470905"
-            class="btn btn-branding-inverse"
-            target="_blank"
-          >
+          <a href="/work.html" class="btn btn-branding-inverse" target="_blank">
             Passion Project
           </a>
         </div>
         <div class="col-lg-6 mt-4">
           <img
             src="images/passion project.png"
-            alt="screenshot of basic website from shecodes basics"
+            alt="Preview of Sarah's Passion Project"
             class="project-picture img-fluid rounded"
           />
         </div>
@@ -86,36 +95,35 @@
         <div class="col-lg-6 mt-4">
           <img
             src="images/weather app.png"
-            alt="screenshot of weather app from shecodes plus"
+            alt="Preview of Sarah's Weather Application"
             class="project-picture img-fluid rounded"
           />
         </div>
         <div class="col-lg-6 project-text">
-          <h2 class="heading-title">Weather App</h2>
-          <p class="project-description">
+          <h2 class="heading-title ms-5">Weather App</h2>
+          <p class="project-description ms-5">
             Over the course of eight weeks, I learned how to use JavaScript and
             integrate APIs in order to create a functional weather application.
             Click the button below to test it out for yourself!
           </p>
-          <a
-            href="https://naughty-thompson-c321f4.netlify.app/"
-            class="btn btn-branding-inverse"
-            target="_blank"
-          >
+          <a href="/work.html" class="btn btn-branding-inverse ms-5" target="_blank">
             Weather App
           </a>
         </div>
       </div>
       <footer>
-        <div
-          class="contact-box d-md-flex justify-content-between mb-5 d-none"
-        >
+        <div class="contact-box d-md-flex justify-content-between mb-5 d-none">
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="mailto:mosermiloshoff@icloud.com"
+              class="btn btn-branding mt-3"
+              title="Email Sarah"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-4">
@@ -124,16 +132,17 @@
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/sarahjmoser" target="_blank"
+          <a href="https://www.instagram.com/sarahjmoser" target="_blank" title="Instagram Profile"
             ><i class="fab fa-instagram"></i
           ></a>
-          <a href="https://github.com/sjmoser" target="_blank"
+          <a href="https://github.com/sjmoser" target="_blank" title="GitHub Profile"
             ><i class="fab fa-github"></i
           ></a>
-          <a href="https://www.twitter.com/dreamteamjeane" target="_blank"
+          <a href="https://www.twitter.com/dreamteamjeane" target="_blank" title="Twitter Profile"
             ><i class="fab fa-twitter"></i
           ></a>
         </div>
+        <p class="text-center mt-5">👆 This project was coded by Sarah Moser, and it is <a href="https://github.com/sjmoser/moser-portfolio-project-shecodes-responsive" target="_blank" title="link to GitHub repository" class="open-source-link">open-sourced</a>.</p>
       </footer>
     </div>
   </body>

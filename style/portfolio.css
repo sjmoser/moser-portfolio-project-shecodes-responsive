@@ -12,7 +12,7 @@ body {
 
 .hero {
   text-align: center;
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 
 .hero p {
@@ -32,7 +32,7 @@ h2 {
   padding-top: 24px;
 }
 
-h4 {
+h3 {
   font-family: var(--secondary-font-family);
   font-weight: bold;
   font-size: 48px;
@@ -49,18 +49,12 @@ h4 {
   font-size: 18px;
 }
 
-.content h3 {
-  font-size: 24px;
-  line-height: 1.5;
-  font-family: var(--primary-font-family);
-}
-
 .content p {
   font-size: 14px;
 }
 
 .content-container {
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -98,6 +92,10 @@ h4 {
   max-height: 45px;
 }
 
+.row {
+  padding: 10px 20px;
+}
+
 nav {
   padding: 40px;
   background: white;
@@ -126,6 +124,10 @@ nav a:hover {
   color: var(--secondary-color);
 }
 
+nav li.active a {
+  font-weight: bold;
+}
+
 footer {
   margin: 60px 0;
 }
@@ -140,13 +142,23 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer .email-link {
+footer .email-link, .project-links{
   text-decoration: none;
   color: black;
   font-size: 24px;
 }
 
-footer .email-link:hover {
+.open-source-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.open-source-link:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+footer .email-link:hover, .project-links:hover {
   color: var(--secondary-color);
 }
 
@@ -180,9 +192,6 @@ footer .social-links a:hover {
   .heading-title {
     font-size: 28px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
   .content-container {
     text-align: center;
     padding: 0;
@@ -193,7 +202,7 @@ footer .social-links a:hover {
   footer .contact-box {
     padding: 30px;
   }
-  h4 {
+  h3 {
     font-size: 24px;
   }
 }
